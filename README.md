@@ -133,4 +133,7 @@ kube-system   replicaset.apps/traefik-97b44b794                   1         1   
 NAMESPACE     NAME                                 COMPLETIONS   DURATION   AGE
 kube-system   job.batch/helm-install-traefik-crd   1/1           42s        33m
 kube-system   job.batch/helm-install-traefik       1/1           46s        33m
+
+Clean:
+$ terraform destroy 
 ```
