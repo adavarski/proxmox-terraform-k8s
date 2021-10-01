@@ -37,10 +37,10 @@ ansible_port = 22
 
 Learn more about how to create a template [here](https://pve.proxmox.com/wiki/VM_Templates_and_Clones#Create_VM_Template)
 ```
-ssh to Proxmox and download ubuntu iso
+ssh @Proxmox and download ubuntu iso:
 root@pve:/var/lib/vz/template/iso# wget http://releases.ubuntu.com/21.04/ubuntu-21.04-live-server-amd64.iso
 
-CREATE VM: ubuntu20.04 ---> convert VM to template (template name 'ubuntu') Ref://support.us.ovhcloud.com/hc/en-us/articles/360010916620-How-to-Create-a-VM-in-Proxmox-VE
+CREATE VM using above iso ---> convert VM to template (template name 'ubuntu'). Ref://support.us.ovhcloud.com/hc/en-us/articles/360010916620-How-to-Create-a-VM-in-Proxmox-VE
 
 ```
 ## Extra configs
