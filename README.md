@@ -2,8 +2,6 @@
  
 Template for setting up VMs for a k8s cluster on a Proxmox node.
 
-Also creates a handy ansible inventory in ansible/hosts.
-
 This repo is using the telmate/proxmox provider for terraform.
 
 Make sure to read the [documentation](https://registry.terraform.io/providers/Telmate/proxmox/latest/docs) to understand all the variables being used in the variables.tf file
