@@ -1,6 +1,6 @@
 ﻿# proxmox-terraform-k8s
  
-Template for setting up VMs for a k8s cluster on a Proxmox node.
+Setting up VMs for a k8s cluster on a Proxmox node.
 
 This repo is using the telmate/proxmox provider for terraform.
 
